@@ -1,5 +1,5 @@
 {
-    "name": "Valon13-Ble_Contorller",
+    "name": "Valon_TbSP06_蓝牙遥控",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -22,7 +22,8 @@
             "microbit-dal": {
                 "bluetooth": {
                     "open": 1,
-                    "whitelist": 0
+                    "whitelist": 0,
+                    "security_level": null
                 }
             }
         }
